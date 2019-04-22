@@ -16,13 +16,13 @@ Visit this site then click and drag any of the bookmarklet links into your bookm
 
 #### Quick-Copy for theme ID.
 
-Instead of navigating in and out of the shop page a few times to grab the current live theme + id for a tier 2 internal escalation, try this bookmarklet that copies the proper format in one go. Drag the link into the bookmark bar to try it out. 
+Instead of navigating in and out of the shop page a few times to grab the current live theme + id for a tier 2 internal escalation, try this bookmarklet that copies the proper format in one go. **Drag the link into the bookmark bar to try it out.** 
 
 [Copy Theme Name + ID](javascript:(function()%7Bvar themeID%3DShopify.theme.name%2B" ("%2BShopify.theme.id%2B")"%3Bvar el%3Ddocument.createElement(%27textarea%27)%3Bel.value%3DthemeID%3Bdocument.body.appendChild(el)%3Bel.select()%3Bdocument.execCommand(%27copy%27)%3Bdocument.body.removeChild(el)%3B%7D)())
 
 #### Copy Shopify URL
 
-If no one has added the proper url to your ticket yet and you don't want to go crawling through the source page this button will automatically copy it for you... i think. Try it out, drag the link into the bookmark bar to try it out.
+If no one has added the proper url to your ticket yet and you don't want to go crawling through the source page this button will automatically copy it for you... i think. **Try it out, drag the link into the bookmark bar to try it out.**
 
 [Copy Shopify URL](javascript:(function()%7Bvar shopName%3DShopify.shop%3Bvar el%3Ddocument.createElement(%27textarea%27)%3Bel.value%3DshopName%3Bdocument.body.appendChild(el)%3Bel.select()%3Bdocument.execCommand(%27copy%27)%3Bdocument.body.removeChild(el)%3B%7D)())
 
