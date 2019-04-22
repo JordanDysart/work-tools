@@ -10,7 +10,7 @@ It's just a few lines of javascript that you can run from the bookmark bar. Thes
 
 Visit this site then click and drag any of the bookmarklet links into your bookmark bar.
 
-![drag and drop](https://gph.is/g/aQglO24)
+![ ](https://giphy.com/gifs/cC9lrZ4Y0Xij0O22iL.gif)
 
 ## Bookmarklet(s)
 
