@@ -32,3 +32,6 @@ If no one has added the proper url to your ticket yet and you don't want to go c
 If you are curious what the javascript code looks like you can right click and edit the bookmarklet. You will find all of the javascript sitting inside of the URL text input box. 
 
 If anyone has any ideas or questions feel free to slack me. 
+
+[![Analytics](https://ga-beacon.appspot.com/UA-138846322-1/welcome-page)](https://github.com/igrigorik/ga-beacon)
+
