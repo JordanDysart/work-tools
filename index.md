@@ -22,7 +22,7 @@ Instead of navigating in and out of the shop page a few times to grab the curren
 
 #### Copy Shopify URL
 
-If no one has added the proper url to your ticket yet and you don't want to go crawling through the source page this button will automatically copy it for you... i think. **Try it out, drag the link into the bookmark bar to try it out.**
+If no one has added the proper url to your ticket yet and you don't want to go crawling through the source page this button will automatically copy it for you... i think. **Drag the link into the bookmark bar to try it out.**
 
 [Copy Shopify URL](javascript:(function()%7Bvar shopName%3DShopify.shop%3Bvar el%3Ddocument.createElement(%27textarea%27)%3Bel.value%3DshopName%3Bdocument.body.appendChild(el)%3Bel.select()%3Bdocument.execCommand(%27copy%27)%3Bdocument.body.removeChild(el)%3B%7D)())
 
