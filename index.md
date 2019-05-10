@@ -30,7 +30,7 @@ If no one has added the proper url to your ticket yet and you don't want to go c
 
 Ok not everyone is going to need this one but I don't have the bold extension hub. If you need a button to press in order to clear the cart us this lovely bmrklt. **Drag the link into the bookmark bar to try it out.** 
 
-[Clear Cart](javascript:(function()%7Bconst Http %3D new XMLHttpRequest()%3Bvar shopName %3D Shopify.shop%3Bconst url%3D '%2Fcart%2Fclear.js'%3BHttp.open("POST"%2C url)%3BHttp.send()%3BHttp.onreadystatechange%3D(e)%3D>%7Bconsole.log(Http.responseText)%3Blocation.reload()%3B%7D%7D)())
+[Clear Cart](javascript:(function()%7Bconst h %3D new XMLHttpRequest()%3Bvar u%3D'cart%2Fclear.js'%3Bh.open("POST"%2Cu)%3Bh.send()%3Bh.onreadystatechange%3D(e)%3D>%7Bconsole.log(h.responseText)%3Blocation.reload()%3B%7D%7D)())
 
 
 ## What am I running?
