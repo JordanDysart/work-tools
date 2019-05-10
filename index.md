@@ -39,5 +39,3 @@ If you are curious what the javascript code looks like you can right click and e
 
 If anyone has any ideas or questions feel free to slack me. 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-138846322-1/welcome-page?pixel)](https://github.com/igrigorik/ga-beacon)
-
