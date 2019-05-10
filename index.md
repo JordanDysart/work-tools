@@ -26,6 +26,12 @@ If no one has added the proper url to your ticket yet and you don't want to go c
 
 [Copy Shopify URL](javascript:(function()%7Bvar shopName%3DShopify.shop%3Bvar el%3Ddocument.createElement(%27textarea%27)%3Bel.value%3DshopName%3Bdocument.body.appendChild(el)%3Bel.select()%3Bdocument.execCommand(%27copy%27)%3Bdocument.body.removeChild(el)%3B%7D)())
 
+#### Clear Cart
+
+Ok not everyone is going to need this one but I don't have the bold extension hub. If you need a button to press in order to clear the cart us this lovely bmrklt. **Drag the link into the bookmark bar to try it out.** 
+
+[Clear Cart](javascript:(function()%7Bconst Http %3D new XMLHttpRequest()%3Bvar shopName %3D Shopify.shop%3Bconst url%3D '%2Fcart%2Fclear.js'%3BHttp.open("POST"%2C url)%3BHttp.send()%3BHttp.onreadystatechange%3D(e)%3D>%7Bconsole.log(Http.responseText)%3Blocation.reload()%3B%7D%7D)())
+
 
 ## What am I running?
 
