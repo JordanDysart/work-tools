@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-09T18:38:28-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Work Toolbet</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Book 👏🏼Mark👏🏼Lets👏🏼!</title><link href="http://localhost:4000/jekyll/update/2020/03/09/worktools.html" rel="alternate" type="text/html" title="Book 👏🏼Mark👏🏼Lets👏🏼!" /><published>2020-03-09T10:45:10-05:00</published><updated>2020-03-09T10:45:10-05:00</updated><id>http://localhost:4000/jekyll/update/2020/03/09/worktools</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/09/worktools.html">&lt;h2 id=&quot;tools-for-the-workplace&quot;&gt;Tools for the workplace&lt;/h2&gt;
+
+&lt;p&gt;I’ve been working on a single tool (more to come) that I would like to share with others. Github is a pretty easy (and free) space for me to share and manage these, so you will be able to find any bookmarklets that make the job easier here.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-bookmarklet&quot;&gt;What is a bookmarklet?&lt;/h2&gt;
+
+&lt;p&gt;It’s just a few lines of javascript that you can run from the bookmark bar. These should allow us to access information that is stored on any website, you just have to click the bookmarklet to run it.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-i-add-a-bookmarklet-to-my-browser&quot;&gt;How do I add a bookmarklet to my browser?&lt;/h2&gt;
+
+&lt;p&gt;Visit this site then click and drag any of the bookmarklet links into your bookmark bar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/cC9lrZ4Y0Xij0O22iL/giphy.gif&quot; alt=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bookmarklets&quot;&gt;Bookmarklet(s)&lt;/h2&gt;
+
+&lt;h4 id=&quot;quick-copy-for-theme-id&quot;&gt;Quick-Copy for theme ID.&lt;/h4&gt;
+
+&lt;p&gt;Instead of navigating in and out of the shop page a few times to grab the current live theme + id for a tier 2 internal escalation, try this bookmarklet that copies the proper format in one go. &lt;strong&gt;Drag the link into the bookmark bar to try it out.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:(function()%7Bvar themeID%3DShopify.theme.name%2B&amp;quot; (&amp;quot;%2BShopify.theme.id%2B&amp;quot;)&amp;quot;%3Bvar el%3Ddocument.createElement(%27textarea%27)%3Bel.value%3DthemeID%3Bdocument.body.appendChild(el)%3Bel.select()%3Bdocument.execCommand(%27copy%27)%3Bdocument.body.removeChild(el)%3B%7D)()&quot;&gt;Copy Theme Name + ID&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;copy-shopify-url&quot;&gt;Copy Shopify URL&lt;/h4&gt;
+
+&lt;p&gt;If no one has added the proper url to your ticket yet and you don’t want to go crawling through the source page this button will automatically copy it for you… i think. &lt;strong&gt;Drag the link into the bookmark bar to try it out.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:(function()%7Bvar shopName%3DShopify.shop%3Bvar el%3Ddocument.createElement(%27textarea%27)%3Bel.value%3DshopName%3Bdocument.body.appendChild(el)%3Bel.select()%3Bdocument.execCommand(%27copy%27)%3Bdocument.body.removeChild(el)%3B%7D)()&quot;&gt;Copy Shopify URL&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;clear-cart&quot;&gt;Clear Cart&lt;/h4&gt;
+
+&lt;p&gt;Ok not everyone is going to need this one but I don’t have the bold extension hub. If you need a button to press in order to clear the cart use this bmrklt. &lt;strong&gt;Drag the link into the bookmark bar to try it out.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:(function()%7Bconst h %3D new XMLHttpRequest()%3Bvar u%3D'cart%2Fclear.js'%3Bh.open(&amp;quot;POST&amp;quot;%2Cu)%3Bh.send()%3Bh.onreadystatechange%3D(e)%3D&amp;gt;%7Bconsole.log(h.responseText)%3Blocation.reload()%3B%7D%7D)()&quot;&gt;Clear Cart&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-am-i-running&quot;&gt;What am I running?&lt;/h2&gt;
+
+&lt;p&gt;If you are curious what the javascript code looks like you can right click and edit the bookmarklet. You will find all of the javascript sitting inside of the URL text input box.&lt;/p&gt;
+
+&lt;p&gt;If anyone has any ideas or questions feel free to slack me.&lt;/p&gt;</content><author><name></name></author><summary type="html">Tools for the workplace</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/03/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-03-08T17:52:10-05:00</published><updated>2020-03-08T17:52:10-05:00</updated><id>http://localhost:4000/jekyll/update/2020/03/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/03/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;plan-this-out&quot;&gt;Plan this out&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is possible with these markdown files?&lt;/li&gt;
+  &lt;li&gt;What are the tools that would be useful to others( and myself)?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;a href=&quot;/tools/bookmarklets&quot;&gt;Bookmarklets&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Buffer Day Calculator.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;posts&quot;&gt;Posts&lt;/h3&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Stupid String Math.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;How to put together a Jekyl site.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Resources to learn more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;
+    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;More Project Ideas.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>

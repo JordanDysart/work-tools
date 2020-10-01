@@ -1,5 +1,5 @@
 ---
-layout: tools
+layout: home
 title: Tools
 permalink: /tools/
 ---
