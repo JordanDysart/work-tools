@@ -5,5 +5,3 @@
 layout: home
 header: _includes/header.html
 ---
-
-I think there is some content missing from this file. 
