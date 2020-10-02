@@ -32,7 +32,7 @@ linkedin_username: jordan-dysart
 # Build settings
 theme: minima
 
-minima: 
+minima:
   skin: dark
 
 plugins:
