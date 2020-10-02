@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book 👏🏼Mark👏🏼Lets👏🏼!"
+title:  "Shopify Bookmarklets!"
 date:   2020-03-09 09:45:10 -0600
 categories: jekyll update
 ---
